@@ -1,0 +1,402 @@
+head{
+ width:100%;
+ height:100%;
+ padding:0;
+ margin:0;
+}
+body{
+ width:100%;
+ height:100%;
+ padding:0;
+ margin:0;
+ background:#F1F4F9;
+}
+p{
+ color:blue;
+}
+
+.motifRDV{
+  margin-left: 25%;
+  color: #70B070;
+}
+
+.prixRDV{
+  color: #70B070;
+}
+aside{
+ position:absolute;
+ right:5%;
+ width:27%;
+ margin-top:20px;
+ max-width:328px;
+}
+.error{
+ color:#D01010;
+}
+.good{
+ color:#70B070;
+}
+.consultation{
+ background:#70B070;
+ font-size: 25px;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+html{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: #F1F4F9;
+position: relative;
+min-height: 100%;
+}
+
+p{
+text-align: justify;
+}
+
+h5{
+color: #09C;
+font-size: 20px;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+/*strong{
+font-size: 15px;
+color: #414A51;
+}*/
+
+header{
+background-color: #09C;
+height: 12%;
+width: 100%;
+}
+/*
+footer{
+  position: relative;
+  bottom: 0px;
+}*/
+
+
+
+/*.logo{
+margin-left: 8%;
+vertical-align: middle;
+display: inline-block;
+}
+
+.icone{
+display: inline-block;
+vertical-align: middle;
+}
+
+nav{
+display: inline-block;
+margin-top: : 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 8px;
+padding: 0px;
+vertical-align: middle;
+
+}
+
+nav>ul>li{
+list-style-type: none;
+color: #FFF;
+font-family: Comic Sans MS;
+font-size: 14px;
+font-weight: bold;
+display: inline-block;
+vertical-align:middle;
+}
+
+nav>ul>li:hover{
+color: #2D3E4A;
+}
+nav>ul>li::after{
+content: ".";
+font-size: 20px;
+color: #237DAC;
+margin: 15px;
+}
+
+aside{
+display: inline-block;
+position: absolute;
+right: 5%;
+margin-top: 20px;
+width: 24%;
+max-width: 328px;
+}
+
+.bulle {
+background-color: #FFF;
+border: 1px #F1F4F9 solid;
+border-radius: 10px;
+padding-right: 20px;
+padding-bottom: 20px;
+margin-bottom: 30px;
+
+}
+
+article>h5{
+color: #ACC0D7;
+font-size: 15px;
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.image{
+float: left;
+margin: 10px;
+}
+
+.centrale{
+background-color: #FFF;
+margin-left: 8%;
+padding-top: 3%;
+width: 60%;
+}*/
+/*.readOnly{
+}*/
+.readOnly > input[type="text"], .readOnly > input[type="email"], .readOnly > input[type="number"]{
+ background:#9F9F9F;
+ width:29%;
+ color:#303030;
+
+}
+
+form{
+margin: auto;
+width: 75%;
+}
+
+
+.medecin{
+  width: 100%;
+}
+
+fieldset{
+background-color: rgb(247,247,247);
+border: 1px #CCC solid;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+fieldset:hover{
+box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+transition: all 0.25s linear;
+}
+
+fieldset:not(hover){
+	transition: all 0.25s linear;
+}
+
+fieldset>legend{
+padding: 0px 10px;
+color: #237DAC;
+border-left: 1px #CCC solid;
+border-right: 1px #CCC solid;
+}
+
+label{
+background-color: #09C;
+color: #FFF;
+display: block;
+width: 29%;
+float: left;
+padding-right: 1%;
+padding-bottom: 1%;
+padding-top: 1%;
+margin-left: 4%;
+text-align: right;
+letter-spacing: 1px;
+}
+
+.plusGrand{
+  width: 34%;
+}
+
+
+label:not(.pas_de_style){
+border-radius: 3px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+input{
+border-radius: 3px;
+}
+
+input:hover{
+font-weight: bold;
+}
+
+.pas_de_style{
+background: none;
+}
+
+.rdv{
+  width: 80%;
+}
+
+input,select{
+color: #414A51;
+padding-top: 1%;
+padding-left: 1%;
+padding-bottom: 1%;
+margin-left: 1%;
+font-style: 14px;
+width: 29%;
+border: 1px #CCC solid;
+transition: all 0.25s linear;
+}
+
+/*.check{
+  width:20%;
+  transition: none;
+}*/
+
+input[type="checkbox"],input[type="radio"]{
+  width: 3%;
+}
+
+/*.stat{
+  float:none;
+}*/
+
+
+
+input[type="submit"]:not(.boutonMed),input[type="button"],input[type="reset"]{
+width: 30%;
+background-color: #09C;
+color: #FFF;
+letter-spacing: 1px;
+border: 1px;
+border: 1px #DDEEFF solid;
+border-radius: 3px;
+transition: all 0.2s linear;
+/*margin-bottom: 20px;*/
+margin-left: 4%;
+}
+
+
+not(input[type="checkbox"]),input:focus,select:focus{
+width: 35%;
+box-shadow: 0 0 5px #6495ED;
+}
+
+input[type="submit"]:hover,input[type="button"]:hover,input[type="reset"]:hover{
+background-color: #87CEFA;
+color: #414A51;
+box-shadow: 0 0 5px #6495ED;
+}
+
+input[type="number"]{
+-moz-appearance: textfield;
+}
+
+input[type="text"]:invalid,input[type="email"]:invalid,input[type="number"]:invalid{
+box-shadow: 0 0 5px #6495ED;
+/*background: url(rouge3.png) right  no-repeat;*/
+}
+
+
+/* CSS Médecins ------------------------------------------------------------------------ */
+.formed{
+	width:100%;
+}
+.listemed{ /* Crée le menu à gauche avec la liste des médecins dans la page CtlMedecin() */
+	margin:none;
+	position:absolute;
+	background-color:#65BFDC;
+	border: 3px #3356CE solid;
+	border-radius:5px;
+	margin-bottom:1%;
+	width:20%;
+	padding-left:0px;
+}
+.champMed{
+	width:40%;
+}
+.boutonMed{
+  margin-left: 0%;
+	width:100%;
+	text-align:center;
+  background-color: #09C;
+  color: black;
+  letter-spacing: 1px;
+  border: 1px;
+  border: 1px #DDEEFF solid;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+
+.hotessePlanning{ /*Affiche le planning du médecin à côté du bouton date pour la prise de rdv avec hotesse*/
+	position: absolute;
+}
+/*
+.planningmed{
+	display: inline-block;
+	vertical-align: middle;
+}*/
+.planningmed{ /* décale le planning des médecins à droite*/
+	margin-left:25%;
+	text-align:center;
+}
+.bloctab{
+	background-color:#D97868;
+}
+.rdvtab{
+	background-color:#9F9F9F;
+}
+.emptab{
+	background-color:#A6EC83;
+	transition: all 0.25s linear;
+}
+.emptab:hover{
+	background-color:white;
+}
+#dateplanning{
+	position:relative;
+	margin-right:10%;
+}
+/* Fin CSS Médecins ------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+/*input:invalid:not(input[type="submit"]){
+box-shadow: 0 0 5px #6495ED;
+background: url(rouge3.png) right no-repeat;
+}*/
+
+/*input[type="text"]:valid,input[type="email"]:valid,input[type="number"]:valid{
+background: url(vert3.png) right no-repeat;
+}*/
+
+
+/*input:valid:not(input[type="submit"]){
+background: url(vert3.png) right no-repeat;
+}*/
+
+/*footer{
+margin-top: 5%;
+}
+
+#petite_resol{
+display: none;
+}*/

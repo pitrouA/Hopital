@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<title>Ma page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet"  href="vue/style/style.css" />
+    </head>
+  <body>
+	<header>mon header</header>
+	<aside>mon aside</aside>
+	<div class="centrale">
+		<?php echo $contenu.$planning;?>
+	</div>
+	<footer>mon footer</footer>
+</body>
+</html>
